@@ -1,7 +1,13 @@
 {
     "port": 3000,
-    "address": "localhost",
+    "address": "https://dce2ef1e-c213-4e9b-a249-313aa118b151.ws-us02.gitpod.io",
     "editor": "gitpod",
+    "configPath": {
+        "config": "bc.json",
+        "base": ".learn",
+        "exercises": "./exercises",
+        "output": ".learn/dist"
+    },
     "outputPath": "./.breathecode/dist",
     "publicPath": "/preview",
     "grading": "isolated",
@@ -27,16 +33,19 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": false
         },
         {
             "slug": "02-Hello-World",
             "title": "02-Hello-World",
+            "done": true,
             "path": "exercises/02-Hello-World",
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "03-What-is-a-function",
@@ -45,7 +54,8 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "04-Call-a-function",
@@ -54,7 +64,8 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "05-Defining-vs-Calling-a-function",
@@ -63,7 +74,8 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "06-Anonymous-functions",
@@ -72,7 +84,8 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "07-Arrow-Functions",
@@ -81,7 +94,8 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "08-Function-that-returns",
@@ -90,7 +104,8 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "09-Function-parameters",
@@ -99,7 +114,8 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "10-Array-Methods",
@@ -108,7 +124,8 @@
             "translations": [
                 "es",
                 "us"
-            ]
+            ],
+            "graded": true
         }
     ]
 }
